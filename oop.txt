@@ -1,0 +1,26 @@
+1. why java is not 100% object oriented 
+because of primitive data types namely boolean bytes char int float double short
+as object oriented miss compeltly object but this primitive data types are not object oriented
+to make them oo we use wraper class which actually "wrap"the primitive data type into an object of class 
+
+
+why pointers are not allowed in java?
+they are unsafe
+they increase the complexity of the program and since java is known for its simplicity of code ,adding the concept of pointers will be contradicting 
+since jvm is responsible for implicity memory allocation or deallocating as these particular thing is done by jvm internally why weneed pointer for it thus we avoid direct access by the memory by the user as usercan perform any fault operation inn memoryand they can manipulate to data   ,thus in order to avoid direct memory access to the user ,pointer are discourage in java 
+
+what is jit compiler in java?(just in time compiler)?
+
+
+java source code --->jdk(javac.exce>--->bytecode--->jre(interpreter+jit compiler) 
+when you compile it  in byte code then it is not now machine depent now using jre we can convert it in machine language so for converting byte code to machine independent code we need interpreter and jit compiler 
+interpereter-- it will line by line convert code into machine code which is understand by system(by it will decrease efficienies and take lot of time to convert all code into machine code )
+jit compiler ---->performance optimisation of javacode at runtime 
+as interpreter is slow so jit is introduce it just compile code to machine code
+
+
+
+
+
+
+
